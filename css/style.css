@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+
+nav {
+  background-color: #fffff6;
+  padding: 10px;
+  text-align: end;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0px 20px;
+  font-size: 1.3em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 750;
+  font-size: 36px;
+  color: #021718;
+  position: absolute;
+  left: 35px;
+  bottom: 3px;
+}
+
+
+h1 {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  left: 116px;
+  top: 283px;
+  font-style: normal;
+  font-weight: 750;
+  font-size: 64px;
+  line-height: 77px;
+  color: #F8F7F7;
+
+}
+
+h3 {
+  position: absolute;
+  width: 500px;
+  height: 47px;
+  left: 116px;
+  top: 361px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+.mainpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+
+#services {
+    margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 750;
+  font-size: 28px;
+  padding-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 24px;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.walk img {
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 350px;
+    display: relative;
+}
+
+#walkingtext {
+    display: absolute;
+    padding: 175px 175px 0px 0px;
+    float: right;
+}
+
+.daily img {
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 350px;
+    display: relative;
+}
+
+#dailytext {
+    display: absolute;
+    padding: 150px 175px 0px 0px;
+    float: right;
+}
+
+.train img {
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 350px;
+    display: relative;
+}
+
+#trainingtext {
+    display: absolute;
+    padding: 175px 175px 0px 0px;
+    float: right;
+}
+
+
+#aboutus {
+    margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 750;
+  font-size: 28px;
+  padding-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#aboutpara {
+    padding-left: 50px;
+    text-align: justify;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+#contact {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 750;
+  font-size: 28px;
+  padding-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact {
+    background-color: #7209b7 ;
+    color: white;
+}
+
+.contact p {
+    padding-left: 75px;
+    word-spacing: 2px;
+}
+
+.disc {
+    text-align: center;
+}
+
+
+
+
+
